@@ -2,5 +2,6 @@
     <img src='http://bit.ly/1eze8aE'>
 </div>
 
-
-<h1>Hi there, Visitor <%= @name %>!</h1> 
+<% if @name %>
+  <h1>Hi there, <%= @name %>!</h1> 
+<% end %>  
