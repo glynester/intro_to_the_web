@@ -7,4 +7,5 @@ group :development, :test do
   gem 'poltergeist'
   gem 'capybara'
   gem 'phantomjs'
+  gem 'shotgun'
 end
