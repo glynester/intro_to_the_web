@@ -1,4 +1,6 @@
 require 'sinatra'
+#require 'capybara/poltergeist'
+#Capybara.javascript_driver = :poltergeist
 
 set :session_secret, 'super secret'
 
