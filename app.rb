@@ -11,7 +11,7 @@ end
 
 post '/named-cat' do
   p params
-  @name = params[:name]
+  @name = params[:name]           #Comes from the input form.
   erb(:index)
 end
 

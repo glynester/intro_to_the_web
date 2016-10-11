@@ -4,7 +4,8 @@
 Commands:
 ruby app.rb  -p $PORT -o $IP            #Command to run a virtual server for the app.rb file
 shotgun app.rb -p $PORT -o $IP          #Command to run a virtual server for the app.rb file (shouldn't need 
-refreshing when files change.)
+refreshing when files change.) 
+Use Ctrl + C to exit from the virtual server.
 
 This gives a link to open up: https://projects-glynester.c9users.io/cat-form
 Enter a cat name in he input box
